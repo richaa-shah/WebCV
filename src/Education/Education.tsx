@@ -8,12 +8,16 @@ interface EducationProps {
 export const Education: React.FC<EducationProps> = props => {
   return (
     <div className="Education">
-      <h3>Education</h3>
-      <ul>
-        {props.places.map((place: string) => (
-          <li>{place}</li>
-        ))}
-      </ul>
+      <section>
+        <h3>Education</h3>
+      </section>
+      <article>
+        <ul>
+          {props.places.map((place: string) => (
+            <li>{place}</li>
+          ))}
+        </ul>
+      </article>
     </div>
   );
 };

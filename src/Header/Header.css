@@ -1,6 +1,7 @@
 .Header {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
   border-bottom: 2px solid crimson;
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,7 @@
+.profile {
+  display: flex;
+  padding: 1%;
+  text-align: center;
+  border-bottom: 2px solid crimson;
+  font-family: Arial, Helvetica, sans-serif;
+}

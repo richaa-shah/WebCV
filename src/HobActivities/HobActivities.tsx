@@ -8,12 +8,16 @@ interface HobbyActivityProps {
 export const HobActivities: React.FC<HobbyActivityProps> = props => {
   return (
     <div className="HobActStyle">
-      <h3>Hobbies and Acvtivities</h3>
-      <ul>
-        {props.hobActTypes.map((hobActType: string) => (
-          <li>{hobActType}</li>
-        ))}
-      </ul>
+      <section>
+        <h3>Hobbies and Acvtivities</h3>
+      </section>
+      <article>
+        <ul>
+          {props.hobActTypes.map((hobActType: string) => (
+            <li>{hobActType}</li>
+          ))}
+        </ul>
+      </article>
     </div>
   );
 };
