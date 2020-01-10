@@ -21,7 +21,7 @@ export const Experience: React.FC<ExperienceProps> = props => {
         <p>
           <div className="formatLine">
             <div> PRWD - Data Analyst Summer Placement</div>
-            <div> Aug 2019 </div>
+            <div> July 2018 - Aug 2018 </div>
           </div>
           WHAT DID I DO???
           <br />
