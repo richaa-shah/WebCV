@@ -1,7 +1,5 @@
 .HobActStyle {
-  display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid black;
 }
 section {
   float: left;
